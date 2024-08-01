@@ -12,12 +12,12 @@ Para aproveitar estilização já definida, crie:
 - a barra com um elemento pai chamado .bar-container e seu filho .bar
 
 ### CAMPOS DO FORMULÁRIO:
-input - nome completo - válido se digitar no mínimo dois nomes,
-input - email - válido se digitar um e-mail,
-select - estado civil,
-radio - gênero
+- input - nome completo - válido se digitar no mínimo dois nomes,
+- input - email - válido se digitar um e-mail,
+- select - estado civil,
+- radio - gênero
 
-Para validação de e-mail use a seguinte RegEx: /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+- Para validação de e-mail use a seguinte: `RegEx: /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;`
 
 ### FUNCIONAMENTO
 Espera-se que o formulário tenha 4 campos ao todo. Portanto, quando o usuário preencher
